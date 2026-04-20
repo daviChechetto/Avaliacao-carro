@@ -1,0 +1,56 @@
+Campo,Ford Escort Ghia 1.6 1987,Volkswagen Parati 1.0 16V 1999,Volkswagen Voyage 1.0 Flex 2009,Renault Sandero Zen 1.0 12V 2022
+Marca,Ford,Volkswagen,Volkswagen,Renault
+Modelo,Escort,Parati,Voyage,Sandero
+Versão,Ghia 1.6,16V 1.0 MI G3,1.0 Total Flex,Zen 1.0 12V SCe
+Ano,1987,1999,2009,2022
+Origem,Nacional,Nacional,Nacional,Nacional
+Carroceria,Hatch,SW / Perua,Sedan,Hatch
+Número de portas,4,4,4,4
+Número de ocupantes,5,5,5,5
+Cilindrada (cc),1597,999,999,999
+Número de cilindros,4 em linha,4 em linha,4 em linha,3 em linha
+Posição do motor,Transversal dianteiro,Transversal dianteiro,Transversal dianteiro,Transversal dianteiro
+Aspiração,Natural,Natural,Natural,Natural
+Alimentação,Carburador,Injeção eletrônica multiponto,Injeção eletrônica multiponto,Injeção eletrônica multiponto
+Combustível,Gasolina,Gasolina,Flex (Gasolina/Etanol),Flex (Gasolina/Etanol)
+Código do motor,CHT,n/a,n/a,B4D
+Válvulas por cilindro,2,4,n/a,n/a
+Comando de válvulas,No bloco / corrente,n/a,n/a,n/a
+Taxa de compressão,9.5:1,8.5:1,n/a,n/a
+Potência máxima (cv) - Gasolina,74 @ 5200 rpm,69 @ 5750 rpm,72 @ 5250 rpm,79 @ 6300 rpm
+Potência máxima (cv) - Etanol,n/a,n/a,76 @ 5250 rpm,82 @ 6300 rpm
+Torque máximo (kgfm) - Gasolina,12.6 @ 2400 rpm,9.38 @ n/a,9.7 @ 3850 rpm,10.2 @ n/a
+Torque máximo (kgfm) - Etanol,n/a,n/a,10.6 @ 3850 rpm,10.5 @ n/a
+Câmbio,Manual,Manual,Manual,Manual
+Número de marchas,5,5,5,5
+Tração,Dianteira,Dianteira,Dianteira,Dianteira
+Direção,Mecânica,Mecânica,Mecânica,Eletro-hidráulica
+Diâmetro de giro (m),11.3,n/a,n/a,n/a
+Suspensão dianteira,Independente McPherson / mola helicoidal,Independente McPherson / barra estabilizadora / mola helicoidal,Independente McPherson / barra estabilizadora / mola helicoidal,Independente McPherson / mola helicoidal
+Suspensão traseira,Independente McPherson / mola helicoidal,Braços triangulares / mola helicoidal,n/a,Eixo de torção / semi-independente / mola helicoidal
+Freios dianteiros,Disco,Disco,Disco ventilado,Disco ventilado
+Freios traseiros,Tambor,n/a,n/a,Tambor
+Pneus dianteiros,165/80 R13,175/70 R13,n/a,n/a
+Pneus traseiros,165/80 R13,175/70 R13,n/a,n/a
+Velocidade máxima (km/h) - Gasolina,157,161,166,160
+Velocidade máxima (km/h) - Etanol,n/a,n/a,168,163
+Aceleração 0-100 km/h (s) - Gasolina,12.6,14.9,13.3,13.3
+Aceleração 0-100 km/h (s) - Etanol,n/a,n/a,n/a,13.0
+Consumo cidade (km/l) - Gasolina,11.5,n/a,n/a,9.6
+Consumo cidade (km/l) - Etanol,n/a,n/a,n/a,9.5
+Consumo estrada (km/l) - Gasolina,16.8,n/a,n/a,14.1
+Consumo estrada (km/l) - Etanol,n/a,n/a,n/a,14.2
+Área frontal (m²),1.87,n/a,n/a,n/a
+Coeficiente aerodinâmico (Cx),0.38,n/a,0.31,n/a
+Comprimento (mm),3969,4082,4230,4070
+Largura (mm),1640,1649,1656,1730
+Altura (mm),1340,1416,1464,1536
+Entre-eixos (mm),2402,2468,2465,2590
+Bitola dianteira (mm),1385,n/a,n/a,n/a
+Bitola traseira (mm),1430,n/a,n/a,n/a
+Vão livre do solo (mm),n/a,n/a,n/a,n/a
+Peso (kg),880,995,970,1011
+Porta-malas (litros),305,437,480,320
+Tanque de combustível (litros),48,n/a,55,50
+Carga útil (kg),350,n/a,n/a,n/a
+Autonomia estimada (km),811,n/a,n/a,n/a
