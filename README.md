@@ -59,8 +59,8 @@ Ser um "Ghia" significa que ele era o topo de linha. Em 1987, isso incluía:
 ---
 
 ## Fontes
-informações retiradas de https://heycar.com.br/
-[Ford Escort](https://heycar.com.br/ficha-tecnica/ficha-tecnica-completa-do-ford-escort-ghia-1-6-1987) -> Carro analisado
-[Volkswagen Parati](https://heycar.com.br/ficha-tecnica/ficha-tecnica-completa-do-volkswagen-parati-1-0-16v-1999) -> Carro de referência já usado
-[Volkswagen Voyage](https://heycar.com.br/ficha-tecnica/ficha-tecnica-completa-do-volkswagen-voyage-1-0-flex-2009) -> Carro de referência já usado
-[Renault Sandero](https://heycar.com.br/ficha-tecnica/ficha-tecnica-completa-do-renault-sandero-zen-1-0-12v-2022) -> Melhor carro custo benefício atualmente (2026)
+informações retiradas de https://heycar.com.br/  
+[Ford Escort](https://heycar.com.br/ficha-tecnica/ficha-tecnica-completa-do-ford-escort-ghia-1-6-1987) -> Carro analisado  
+[Volkswagen Parati](https://heycar.com.br/ficha-tecnica/ficha-tecnica-completa-do-volkswagen-parati-1-0-16v-1999) -> Carro de referência já usado  
+[Volkswagen Voyage](https://heycar.com.br/ficha-tecnica/ficha-tecnica-completa-do-volkswagen-voyage-1-0-flex-2009) -> Carro de referência já usado  
+[Renault Sandero](https://heycar.com.br/ficha-tecnica/ficha-tecnica-completa-do-renault-sandero-zen-1-0-12v-2022) -> Melhor carro custo benefício atualmente (2026)  
