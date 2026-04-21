@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Análise Técnica do Escort Ghia</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;1,400&family=DM+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+
+    <link rel="stylesheet" href="style.css" />
+	<script src="script.js" defer></script>
+  </head>
+  <body>
+    <!-- ─── HERO ─────────────────────────────────────────────────────── -->
+    <header class="hero">
+      <p class="eyebrow">Análise Técnica · Brasil · 1987 – 2022</p>
+      <h1 class="hero-title">4 Décadas<br />de Carros<br />Populares</h1>
+      <p class="hero-sub">
+        Uma viagem de 35 anos pela evolução do carro popular brasileiro — do
+        Escort Ghia carburado ao Sandero Zen flex.
+      </p>
+      <div class="pills" id="pills"></div>
+    </header>
+
+    <main class="container">
+      <!-- 01 & 02 ─ Potência & Torque -->
+      <section class="section">
+        <div class="sec-head">
+          <span class="sec-num">01 — 02</span>
+          <h2 class="sec-title">Potência & Torque</h2>
+          <span class="sec-hint">gasolina · cv / kgfm</span>
+        </div>
+        <div class="g2">
+          <div class="cc">
+            <p class="cc-label">01</p>
+            <h3 class="cc-title">Potência Máxima (cv)</h3>
+            <div class="cw"><canvas id="cPot"></canvas></div>
+          </div>
+          <div class="cc">
+            <p class="cc-label">02</p>
+            <h3 class="cc-title">Torque Máximo (kgfm)</h3>
+            <div class="cw"><canvas id="cTorq"></canvas></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 03 ─ Relação Peso/Potência -->
+      <section class="section">
+        <div class="sec-head">
+          <span class="sec-num">03</span>
+          <h2 class="sec-title">Relação Peso / Potência</h2>
+          <span class="sec-hint">kg/cv · menor = melhor</span>
+        </div>
+        <div class="cc">
+          <p class="cc-label">03</p>
+          <h3 class="cc-title">Peso por Cavalo-vapor — Gasolina (kg/cv)</h3>
+          <div class="cw cw-tall"><canvas id="cPP"></canvas></div>
+          <p class="note">
+            ↓ Menor valor significa que cada cavalo carrega menos peso —
+            indicador direto de performance.
+          </p>
+        </div>
+      </section>
+
+      <!-- 04 ─ Peso (stat cards) -->
+      <section class="section">
+        <div class="sec-head">
+          <span class="sec-num">04</span>
+          <h2 class="sec-title">Peso & Relação Peso/Potência</h2>
+          <span class="sec-hint">kg</span>
+        </div>
+        <div class="g4" id="statCards"></div>
+      </section>
+
+      <!-- 05 ─ Consumo -->
+      <section class="section">
+        <div class="sec-head">
+          <span class="sec-num">05</span>
+          <h2 class="sec-title">Consumo de Combustível</h2>
+          <span class="sec-hint">km/l · cidade & estrada</span>
+        </div>
+        <div class="g2">
+          <div class="cc">
+            <p class="cc-label">05-A · Gráfico</p>
+            <h3 class="cc-title">Cidade vs Estrada (km/l)</h3>
+            <div class="cw cw-tall"><canvas id="cCons"></canvas></div>
+            <p class="note">
+              ⚠ Apenas modelos com dados INMETRO disponíveis.<br />Parati 1999 e
+              Voyage 2009 sem dados oficiais acessíveis.
+            </p>
+          </div>
+          <div class="cc">
+            <p class="cc-label">05-B · Tabela completa</p>
+            <h3 class="cc-title">Todos os Combustíveis</h3>
+            <div id="consumoTable"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 06 & 07 ─ Desempenho -->
+      <section class="section">
+        <div class="sec-head">
+          <span class="sec-num">06 — 07</span>
+          <h2 class="sec-title">Desempenho</h2>
+          <span class="sec-hint">velocidade & aceleração</span>
+        </div>
+        <div class="g2">
+          <div class="cc">
+            <p class="cc-label">06</p>
+            <h3 class="cc-title">Velocidade Máxima — Gasolina (km/h)</h3>
+            <div class="cw"><canvas id="cVel"></canvas></div>
+          </div>
+          <div class="cc">
+            <p class="cc-label">07</p>
+            <h3 class="cc-title">Aceleração 0–100 km/h (s)</h3>
+            <div class="cw"><canvas id="cAcel"></canvas></div>
+            <p class="note">Menor tempo = mais rápido</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- 08 & 09 ─ Praticidade & Motor -->
+      <section class="section">
+        <div class="sec-head">
+          <span class="sec-num">08 — 09</span>
+          <h2 class="sec-title">Praticidade & Motor</h2>
+          <span class="sec-hint">litros · cc</span>
+        </div>
+        <div class="g2">
+          <div class="cc">
+            <p class="cc-label">08</p>
+            <h3 class="cc-title">Volume do Porta-malas (L)</h3>
+            <div class="cw"><canvas id="cPM"></canvas></div>
+          </div>
+          <div class="cc">
+            <p class="cc-label">09</p>
+            <h3 class="cc-title">Cilindrada do Motor (cc)</h3>
+            <div class="cw"><canvas id="cCil"></canvas></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 10 ─ Radar -->
+      <section class="section">
+        <div class="sec-head">
+          <span class="sec-num">10</span>
+          <h2 class="sec-title">Perfil Geral — Radar</h2>
+          <span class="sec-hint">normalizado 0 – 100%</span>
+        </div>
+        <div class="cc">
+          <p class="cc-label">10</p>
+          <h3 class="cc-title">Comparativo Multidimensional Normalizado</h3>
+          <div class="cw cw-radar"><canvas id="cRadar"></canvas></div>
+          <p class="note">
+            Valores normalizados pelo máximo de cada categoria. Maior área
+            preenchida = melhor perfil relativo naquele eixo.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      Backend · Python + Flask &nbsp;/&nbsp; Frontend · HTML · CSS · JS ·
+      Chart.js 4 &nbsp;/&nbsp; Dados · Mobiauto · iCarros · Revista Auto
+      <br />Ford Escort Ghia 1987 · VW Parati 1.0 16V 1999 · VW Voyage 1.0 Flex
+      2009 · Renault Sandero Zen 1.0 2022
+    </footer>
+  </body>
+</html>
