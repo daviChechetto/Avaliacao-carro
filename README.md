@@ -59,7 +59,7 @@ Ser um "Ghia" significa que ele era o topo de linha. Em 1987, isso incluía:
 ---
 
 ## Fontes
-informações retiradas de https://heycar.com.br/  
+informações retiradas de https://heycar.com.br/ e https://www.youtube.com/watch?v=C7n6QemP_F8
 - [Ford Escort](https://heycar.com.br/ficha-tecnica/ficha-tecnica-completa-do-ford-escort-ghia-1-6-1987) -> Carro analisado  
 - [Volkswagen Parati](https://heycar.com.br/ficha-tecnica/ficha-tecnica-completa-do-volkswagen-parati-1-0-16v-1999) -> Carro de referência já usado  
 - [Volkswagen Voyage](https://heycar.com.br/ficha-tecnica/ficha-tecnica-completa-do-volkswagen-voyage-1-0-flex-2009) -> Carro de referência já usado  
