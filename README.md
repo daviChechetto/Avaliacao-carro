@@ -1,5 +1,7 @@
 # 📋 Relatório de Características: Ford Escort Ghia 1987
 
+(página de estatística)[https://davichechetto.github.io/Avaliacao-carro/]
+
 ---
 
 ## 1. O Coração: Motor CHT 1.6 (Álcool)
